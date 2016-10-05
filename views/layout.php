@@ -40,12 +40,12 @@
 <nav class="navbar navbar-inverse">
   <div class="container-fluid">
     <div class="navbar-header">
-      <a class="navbar-brand" href="#">Navigation</a>
+      <a class="navbar-brand" href="#">Navigation |</a>
     </div>
     <ul class="nav navbar-nav">
       <li><a href="index.php?controller=pages&action=home">Home</a></li>
-      <li><a href="index.php?controller=newCustomer&action=home">New Customer</a></li>
-      <li><a href="index.php?controller=newCustomer&action=customerList">Customer</a></li>
+      <li><a href="index.php?controller=newCustomer&action=home">New Applicant</a></li>
+      <li><a href="index.php?controller=newCustomer&action=customerList">All Applicants</a></li>
 	  <li><a href="https://international.missouri.edu/">International Center Home</a></li>
 	  <li><a href="http://missouri.edu/">MU Home Page</a></li>
 	  <li><a href="http://www.mutigers.com/">Mizzou Athletics</a></li>
@@ -108,7 +108,7 @@
         <div id="Jemail">
           <h2>Email Johnn</h2>
           <ul class="list-inline">
-		  <li><a title="E-Mail Johnn Houston" class="email text-hide" href="mailto:johnnwith2ns@gmail.com?Subject=Web%20Programmer%20Position"><img id="JOHNNicon" src="img/email-johnn.png" style="">Email Johnn Houston</a></li>
+		  <li><a href="mailto:johnnwith2ns@gmail.com" title="E-Mail Johnn Houston" class="email text-hide"><img id="JOHNNicon" src="img/email-johnn.png"/></a></li>
 		  </ul>
         </div>
       </div> 

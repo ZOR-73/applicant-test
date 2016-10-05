@@ -2,8 +2,9 @@
 <html>
 <body>
 <h2><strong>Applicant List:</strong></h2>
+
 <form action="?controller=newCustomer&action=insertCustomer" method="post">
-<table id="customerTable" class="table table-striped table-bordered" cellspacing="0" width="80%" >
+<table id="customerTable" class="table table-striped table-bordered" cellspacing="0" >
  <thead>
       <tr><th>Applicant</th>
       <th>Address</th>
@@ -43,10 +44,19 @@
     </tr>
     <?php }?>
     </tbody>
-
+<script type="text/javascript">
+  $(function(){
+    $("#customerTable").dataTable();
+  })
+  </script>
 </table>
 
-<!--MY DROP UP-->
+
+</form>
+
+
+
+ <!--MY DROP UP-->
 <div class="dropup">
   <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     Pop Up Menu
@@ -59,13 +69,9 @@
     <li role="separator" class="divider"></li>
     <li><a href="#">Separated link</a></li>
   </ul>
-</div> 
+</div>
 	
-<script type="text/javascript">
-  $(function(){
-    $("#customerTable").dataTable();
-  })
-  </script>
+
 </body>
 </html>
 

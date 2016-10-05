@@ -1,6 +1,7 @@
 <div class="container box body-content" >
 <form action="?controller=newCustomer&action=updateCustomer" method="post">
-<h2><strong>Edit Applicant</strong></h2>
+<h2><strong>
+Applicant</strong></h2>
 <div class="row pad-bottom">
                 <div class="col-md-4 text-right-responsive">
                     <strong>

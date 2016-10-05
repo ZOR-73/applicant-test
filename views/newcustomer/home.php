@@ -85,9 +85,36 @@
         </option>
     <?php }?>
 </select>
+</div>
+
+<div id="emaildiv" class="row pad-bottom">
+                <div class="col-md-4 ">
+                    <strong>
+                      Email
+                    </strong>
+                </div>
+                <div id="emailtb" class="col-md-6">
+                    <input type="text" class="form-control" name="Email" >
                 </div>
             </div>
+
+
+
+
+                </div>
+                
+      <input type="submit" name="insert" id="insert" class="button" value="Register Now"/>         
+                
+            </div>
           </div>
-</div>		  
+</div>
+
+
+
+
+
+
+
+		  
 </body>
 </html>
